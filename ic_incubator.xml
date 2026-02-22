@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Makine gövdesi -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M6,10 L42,10 Q44,10 44,12 L44,36 Q44,38 42,38 L6,38 Q4,38 4,36 L4,12 Q4,10 6,10 Z"/>
+    <!-- Makine çerçevesi -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M6,10 L42,10 Q44,10 44,12 L44,36 Q44,38 42,38 L6,38 Q4,38 4,36 L4,12 Q4,10 6,10 Z"/>
+    <!-- Yumurta ikonları -->
+    <ellipse android:fillColor="#FF6B35" android:cx="16" android:cy="24" android:rx="5" android:ry="6"/>
+    <ellipse android:fillColor="#FF6B35" android:cx="24" android:cy="24" android:rx="5" android:ry="6"/>
+    <ellipse android:fillColor="#FF6B35" android:cx="32" android:cy="24" android:rx="5" android:ry="6"/>
+    <!-- Üst çubuk -->
+    <rect android:fillColor="#CCFFFFFF" android:x="4" android:y="10" android:width="40" android:height="6"/>
+    <!-- Kontrol paneli -->
+    <circle android:fillColor="#4CAF50" android:cx="38" android:cy="35" android:r="2"/>
+    <rect android:fillColor="#CCFFFFFF" android:x="10" android:y="33" android:width="20" android:height="3" android:rx="1.5"/>
+</vector>
